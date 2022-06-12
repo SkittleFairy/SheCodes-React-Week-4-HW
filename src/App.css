@@ -1,3 +1,19 @@
+html {
+  height: 100%;
+}
+body {
+  background: radial-gradient(
+    circle at 4.3% 10.7%,
+    rgb(138, 118, 249) 13.6%,
+    rgb(75, 252, 235) 100.7%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Inconsolata", monospace;
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   color: #40356f;
   font-family: monospace;
@@ -6,8 +22,14 @@
 }
 
 .SearchButton {
+  border-color: #fa86be;
   padding: 20px;
 }
+
+ul {
+  list-style-type: none;
+}
+
 ul p {
   color: #534edb;
   font-size: 24px;
@@ -19,15 +41,27 @@ ul li {
   font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  display: block;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#code-creator {
+  color: #4efaea;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#github-link {
+  color: #4efaea;
+  text-decoration: none;
+}
+
+#netlify-link {
+  color: #4efaea;
+  text-decoration: none;
 }
